@@ -9,5 +9,4 @@ while x1 <= y1:
     x1 = x1+x1*p1
     t += 1
 else:
-    t = str(t)
-    print("Срок (лет)"+t)
+    print("Срок (лет)",t)
