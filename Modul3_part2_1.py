@@ -2,11 +2,10 @@ list = [1, 2, 3, 2, 4, 1, 5, 2]
 unique = []
 two = []
 for i in list:
-    if i not in unique:
+    if list.count(i)>1 and i not in unique:
         unique.append(i)
-    else:
-        two.append(i)
-print(two)
+print(unique)
+
 # Вопрос - как слелать так, чтобы в списке two не было повторяющихся элементов?
 #У меня появляется только идея создать очередную такую проверку.
 

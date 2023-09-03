@@ -2,8 +2,8 @@ import math
 
 
 def area(a, b, c):
-    P = ((a + b + c) // 2)
-    P1 = P ** (P - a) ** (P - b) ** (P - c)
+    P = ((a + b + c) / 2)
+    P1 = P * (P - a) * (P - b) * (P - c)
     S = math.sqrt(P1)
     return (S)
 

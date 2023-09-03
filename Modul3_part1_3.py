@@ -1,4 +1,4 @@
-k = input("введите целове число")
-k1 = str(k)
-count = len(k1)
-print("Количество цифр в числе", count)
+k = input("введите целое число")
+k1 = list(str(k))
+count = sum(map(int, k1))
+print("Сумма цифр", count)
