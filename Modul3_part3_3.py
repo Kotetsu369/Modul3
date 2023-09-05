@@ -1,4 +1,7 @@
-list = [7, 16, 64, 65]
+
+list = [11, 12,8, 89]
+#numbers = input('Введите числа')
+#list.append(numbers)
 #a = str(list)
 list = sorted(list, key=lambda x: str(x)[0], reverse = True)
 s = str(list)
